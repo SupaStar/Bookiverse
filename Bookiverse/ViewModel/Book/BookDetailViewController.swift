@@ -62,24 +62,21 @@ class BookDetailViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func setupTables(){
-        //Tabla de autores
-        authorTableView.delegate = self
-        authorTableView.dataSource = self
-        authorTableView.layer.borderColor = UIColor.gray.cgColor
-        authorTableView.layer.borderWidth = 1.0
-        authorTableView.layer.cornerRadius = 8.0
-        authorTableView.clipsToBounds = true
-        constraintTableAuthors.constant = self.collapseHeightTables
-        authorTableView.reloadData()
+        styleTable(authorTableView, constraint: constraintTableAuthors)
         
-        industryIdentifiersTableView.delegate = self
-        industryIdentifiersTableView.dataSource = self
-        industryIdentifiersTableView.layer.borderColor = UIColor.gray.cgColor
-        industryIdentifiersTableView.layer.borderWidth = 1.0
-        industryIdentifiersTableView.layer.cornerRadius = 8.0
-        industryIdentifiersTableView.clipsToBounds = true
-        constraintTableIndustry.constant = self.collapseHeightTables
-        industryIdentifiersTableView.reloadData()
+        styleTable(industryIdentifiersTableView, constraint: constraintTableIndustry)
+    }
+    
+    func styleTable(_ tableView: UITableView, constraint: NSLayoutConstraint){
+        // Redondea y da un margen de color a la tabla
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.layer.borderColor = UIColor.gray.cgColor
+        tableView.layer.borderWidth = 1.0
+        tableView.layer.cornerRadius = 8.0
+        tableView.clipsToBounds = true
+        constraint.constant = self.collapseHeightTables
+        tableView.reloadData()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
