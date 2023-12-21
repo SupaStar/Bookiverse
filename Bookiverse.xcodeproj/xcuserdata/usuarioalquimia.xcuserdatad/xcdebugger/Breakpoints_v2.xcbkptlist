@@ -7,111 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "77689ACE-52BF-4446-914E-7387D122184E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/HomeTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "loadBooks(refresh:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BEEAAEBB-33D6-4DAC-93D6-84B47B28378F"
+            uuid = "1D64C8EC-E57D-497A-A877-0AA77C17D219"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Bookiverse/Network/Book/BookRequestViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "requestBooks(search:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "requestBooks(search:offset:limit:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FC1A6A4C-3FF8-4D1B-A443-2C7F7F95348A"
+            uuid = "D29BEBC3-B98B-458D-BCCC-EA3310CB6FCB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/Network/Book/BookRequestViewModel.swift"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "requestBooks(search:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B6404E88-8DD4-4D81-A3EF-61C74447CE06"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/HomeTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "loadBooks(refresh:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6C240592-EE81-456C-964A-4594FB53919C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Bookiverse/Network/Book/BookRequestViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "requestBooks(search:)"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "loadBook()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6C240592-EE81-456C-964A-4594FB53919C - e92fdc3b13f5e480"
+                  uuid = "D29BEBC3-B98B-458D-BCCC-EA3310CB6FCB - ea8df813a41455b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.BookRequestViewModel.requestBooks(search: Swift.String) -&gt; ()"
+                  symbolName = "Bookiverse.BookDetailViewController.loadBook() -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequestViewModel.swift"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "72">
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  uuid = "6C240592-EE81-456C-964A-4594FB53919C - 4980d98a008642ed"
+                  uuid = "D29BEBC3-B98B-458D-BCCC-EA3310CB6FCB - ea8df813a41455b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;Bookiverse.BookModel&gt;, Swift.String) -&gt; () in Bookiverse.BookRequestViewModel.requestBooks(search: Swift.String) -&gt; ()"
+                  symbolName = "Bookiverse.BookDetailViewController.loadBook() -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequestViewModel.swift"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "196">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -119,108 +71,205 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "276540D9-E7E6-41AB-B1BF-4961CF477FD7"
+            uuid = "AB325F7C-DBC7-48E3-A6FD-1D57F6D42CEB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/HomeTableViewController.swift"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "loadBook()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB325F7C-DBC7-48E3-A6FD-1D57F6D42CEB - ea8df813a41455fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.loadBook() -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "AB325F7C-DBC7-48E3-A6FD-1D57F6D42CEB - 49bfc031d624848e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Bookiverse.BookDetailViewController.loadBook() -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "AB325F7C-DBC7-48E3-A6FD-1D57F6D42CEB - ea8df813a41455db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.loadBook() -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C46B4F0-1AE4-4DC3-A82B-F3C6B5B81F76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "loadBook()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1DA58ECC-8A19-4F84-BAC6-1B720E4A02AA"
+            uuid = "C3D0B9C0-0EB6-4ECE-9DAC-A21B59009EF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/Network/Book/BookRequestViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getBookDetail(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEC02007-9B20-4518-9E18-4848504AA3D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/Network/Book/BookRequestViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getBookDetail(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6879ECB4-93BD-420D-9170-B5F7C9759BAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/Network/Book/BookRequestViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getBookDetail(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "685FF16B-AD70-4BF9-82B0-CA0E57617164"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Bookiverse/Network/Book/BookRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "loadBooks(search:completion:)"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "loadDetailBook(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "670BD309-D67B-4CE8-8E7A-57CBECBBF43D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/Network/Book/BookRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "loadDetailBook(id:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1DA58ECC-8A19-4F84-BAC6-1B720E4A02AA - 4c82158a049a5a1d"
+                  uuid = "670BD309-D67B-4CE8-8E7A-57CBECBBF43D - 48cb8df7c3822b16"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadBooks(search: Swift.String, completion: (Swift.Array&lt;Bookiverse.BookModel&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  symbolName = "Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "828">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "740">
                </Location>
                <Location
-                  uuid = "1DA58ECC-8A19-4F84-BAC6-1B720E4A02AA - 4c82158a049a5a1d"
+                  uuid = "670BD309-D67B-4CE8-8E7A-57CBECBBF43D - 57b552a9ce5ab460"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadBooks(search: Swift.String, completion: (Swift.Array&lt;Bookiverse.BookModel&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "916">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "200">
                </Location>
                <Location
-                  uuid = "1DA58ECC-8A19-4F84-BAC6-1B720E4A02AA - 4c82158a049a5a1d"
+                  uuid = "670BD309-D67B-4CE8-8E7A-57CBECBBF43D - 57b552a9ce5ab460"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadBooks(search: Swift.String, completion: (Swift.Array&lt;Bookiverse.BookModel&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "996">
-               </Location>
-               <Location
-                  uuid = "1DA58ECC-8A19-4F84-BAC6-1B720E4A02AA - 4c82158a049a5a1d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadBooks(search: Swift.String, completion: (Swift.Array&lt;Bookiverse.BookModel&gt;, Swift.String) -&gt; ()) -&gt; ()"
-                  moduleName = "Bookiverse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "968">
-               </Location>
-               <Location
-                  uuid = "1DA58ECC-8A19-4F84-BAC6-1B720E4A02AA - 4c82158a049a5a1d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadBooks(search: Swift.String, completion: (Swift.Array&lt;Bookiverse.BookModel&gt;, Swift.String) -&gt; ()) -&gt; ()"
-                  moduleName = "Bookiverse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "840">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "196">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -228,77 +277,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1DC9F635-E933-4DED-BE6C-EEF1EE4DB844"
+            uuid = "8FB9974A-B33C-421D-89FC-B850A7A4FA0D"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+            filePath = "Bookiverse/Network/Book/BookRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "loadBooks()"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "loadDetailBook(id:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1DC9F635-E933-4DED-BE6C-EEF1EE4DB844 - e59fe63fa1c33cb2"
+                  uuid = "8FB9974A-B33C-421D-89FC-B850A7A4FA0D - 57b552a9ce5ab778"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.SavedBooksTableViewController.loadBooks() -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "324">
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "796">
                </Location>
                <Location
-                  uuid = "1DC9F635-E933-4DED-BE6C-EEF1EE4DB844 - e59fe63fa1c33cd5"
+                  uuid = "8FB9974A-B33C-421D-89FC-B850A7A4FA0D - 57b552a9ce5ab778"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.SavedBooksTableViewController.loadBooks() -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "288">
-               </Location>
-               <Location
-                  uuid = "1DC9F635-E933-4DED-BE6C-EEF1EE4DB844 - e59fe63fa1c33cd5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.SavedBooksTableViewController.loadBooks() -&gt; ()"
-                  moduleName = "Bookiverse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "324">
-               </Location>
-               <Location
-                  uuid = "1DC9F635-E933-4DED-BE6C-EEF1EE4DB844 - e59fe63fa1c33d78"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.SavedBooksTableViewController.loadBooks() -&gt; ()"
-                  moduleName = "Bookiverse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "620">
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1040">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -306,63 +325,95 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E49B840F-3FC3-4BE3-99BD-A424645A5652"
+            uuid = "5A25C753-D9B9-4087-BC74-BCD43D4DC17F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+            filePath = "Bookiverse/Network/Book/BookRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "loadDetailBook(id:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A25C753-D9B9-4087-BC74-BCD43D4DC17F - 57b552a9ce5ab799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+               <Location
+                  uuid = "5A25C753-D9B9-4087-BC74-BCD43D4DC17F - 57b552a9ce5ab799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2768">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BAA10A46-509C-492F-82B0-2DD68DA94AE1"
+            uuid = "F690F4F4-884E-4EF2-9C80-74975A1F1ED6"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+            filePath = "Bookiverse/Network/Book/BookRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "loadDetailBook(id:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "BAA10A46-509C-492F-82B0-2DD68DA94AE1 - f52611e52f26b957"
+                  uuid = "F690F4F4-884E-4EF2-9C80-74975A1F1ED6 - 57b552a9ce5ab7f4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.SavedBooksTableViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "Bookiverse"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "1408">
-               </Location>
-               <Location
-                  uuid = "BAA10A46-509C-492F-82B0-2DD68DA94AE1 - f52611e52f26b9b4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Bookiverse.SavedBooksTableViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "Bookiverse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "61"
                   endingLineNumber = "61"
-                  offsetFromSymbolStart = "1408">
+                  offsetFromSymbolStart = "2844">
+               </Location>
+               <Location
+                  uuid = "F690F4F4-884E-4EF2-9C80-74975A1F1ED6 - 57b552a9ce5ab7f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "5804">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -370,96 +421,590 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "08E2E496-83F3-4B10-A9EE-4E8614437FAF"
+            uuid = "72252C1D-38DF-4CC1-9333-F7E9C4542C7C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/Book/BookTableViewCell.swift"
+            filePath = "Bookiverse/Network/Book/BookRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "book"
-            landmarkType = "24">
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "loadDetailBook(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72252C1D-38DF-4CC1-9333-F7E9C4542C7C - 57b552a9ce5ab71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "72252C1D-38DF-4CC1-9333-F7E9C4542C7C - 57b552a9ce5ab71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "72252C1D-38DF-4CC1-9333-F7E9C4542C7C - 57b552a9ce5ab71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "72252C1D-38DF-4CC1-9333-F7E9C4542C7C - 57b552a9ce5ab71d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8B71EFEF-2F9B-4FF5-BC14-83F7415B46F2"
+            uuid = "0E8C0FFD-540E-45F1-8FE2-6245E0513ACE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/Book/BookTableViewCell.swift"
+            filePath = "Bookiverse/Network/Book/BookRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "book"
-            landmarkType = "24">
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "loadDetailBook(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E8C0FFD-540E-45F1-8FE2-6245E0513ACE - 57b552a9ce5ab4be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "0E8C0FFD-540E-45F1-8FE2-6245E0513ACE - 57b552a9ce5ab4be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookRequest.loadDetailBook(id: Swift.String, completion: (Swift.Optional&lt;Bookiverse.FullBookInfo&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/Network/Book/BookRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "766BC93A-1063-496B-BFF5-AA5034025130"
+            uuid = "73EBF698-2EF5-4670-865D-DF00AB2DD418"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/Book/BookTableViewCell.swift"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "book"
-            landmarkType = "24">
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "loadImage(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73EBF698-2EF5-4670-865D-DF00AB2DD418 - 4b95bbece06a898f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.loadImage(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "73EBF698-2EF5-4670-865D-DF00AB2DD418 - 68d98ff253649331"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Bookiverse.BookDetailViewController.loadImage(urlString: Swift.String) -&gt; ()"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "10826794-F92C-4F29-8107-58280512625B"
+            uuid = "9464BA97-07EE-402D-B6E7-C29E069FE27B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "loadBooks()"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "loadBook()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DDC73179-5DBA-4E08-8616-C97AB8BE9553"
+            uuid = "B07470A6-CFE3-4287-9574-814AB39AC681"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "viewDidAppear(_:)"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B07470A6-CFE3-4287-9574-814AB39AC681 - d063a824427b193f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "B07470A6-CFE3-4287-9574-814AB39AC681 - d063a824427b193f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "688">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DF6B58B8-8094-4270-A968-8A94F7E734E8"
+            uuid = "A7DA7A36-2B67-4757-BB83-7B09D7A63568"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bookiverse/ViewModel/SavedBook/SavedBooksTableViewController.swift"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "viewDidAppear(_:)"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7DA7A36-2B67-4757-BB83-7B09D7A63568 - d063a824427b1979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "1324">
+               </Location>
+               <Location
+                  uuid = "A7DA7A36-2B67-4757-BB83-7B09D7A63568 - d063a824427b1979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "401499CF-F880-49AE-8D54-761BBD2A1741"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "401499CF-F880-49AE-8D54-761BBD2A1741 - febccea679adaf34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "401499CF-F880-49AE-8D54-761BBD2A1741 - febccea679adaf34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21D77A92-D4BE-494F-A281-1A74ACB80D43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "21D77A92-D4BE-494F-A281-1A74ACB80D43 - caaadc8517232cf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "21D77A92-D4BE-494F-A281-1A74ACB80D43 - caaadc8517232cf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACE5E404-68CB-4939-A4ED-532AA3F4CC2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACE5E404-68CB-4939-A4ED-532AA3F4CC2F - febccea679adafa8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "ACE5E404-68CB-4939-A4ED-532AA3F4CC2F - caaadc8517232cbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7490EA2-03EB-4C23-ACA0-88602C1D2528"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7490EA2-03EB-4C23-ACA0-88602C1D2528 - caaadc8517232cf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "C7490EA2-03EB-4C23-ACA0-88602C1D2528 - caaadc8517232f1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5A7F956-443A-4DD6-B5FE-84CC90FE07A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5A7F956-443A-4DD6-B5FE-84CC90FE07A7 - febccea679adaf34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "B5A7F956-443A-4DD6-B5FE-84CC90FE07A7 - febccea679adaf15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2776E966-5669-420A-A7B5-06523491CC0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2776E966-5669-420A-A7B5-06523491CC0D - d063a824427b16fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "2776E966-5669-420A-A7B5-06523491CC0D - d063a824427b16fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bookiverse.BookDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Bookiverse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuarioalquimia/Documents/pruebas/Bookiverse/Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AA2EB59-8F95-49EE-8F47-0F665D3CA716"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bookiverse/ViewModel/Book/BookDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "loadBook()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

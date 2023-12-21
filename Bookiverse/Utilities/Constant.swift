@@ -11,8 +11,12 @@ import UIKit
 // API
 let apiURL = "https://www.googleapis.com/books/v1/volumes"
 
-func makeURL(search: String) -> URL? {
-    var baseURL = "\(apiURL)?q=\(search)"
+func makeURL(search: String, parameters: [String:String]) -> URL? {
+    var baseURL = "\(apiURL)?q=\(search)&"
+    let queryItems = parameters.map { (key, value) in
+        return "\(key)=\(value)"
+    }
+    baseURL += queryItems.joined(separator: "&")
     if let url = URL(string: baseURL) {
         return url
     } else {

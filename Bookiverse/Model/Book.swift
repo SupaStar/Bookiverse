@@ -17,9 +17,9 @@ struct BookModel: Codable {
 struct BookInfo: Codable {
     let title: String
     let subtitle: String?
-    let authors: [String]
-    let publisher: String
-    let publishedDate: String
+    let authors: [String]?
+    let publisher: String?
+    let publishedDate: String?
 }
 
 struct BookResponse: Codable {

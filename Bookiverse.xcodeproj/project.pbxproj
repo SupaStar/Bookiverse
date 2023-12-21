@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091FFF2C2B337DF8000EB19B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091FFF2B2B337DF8000EB19B /* Loader.swift */; };
+		091FFF2E2B33A089000EB19B /* FullBookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091FFF2D2B33A089000EB19B /* FullBookInfo.swift */; };
+		091FFF312B33B1B0000EB19B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091FFF302B33B1B0000EB19B /* StringExtension.swift */; };
+		091FFF352B33D510000EB19B /* Acordion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091FFF342B33D510000EB19B /* Acordion.swift */; };
 		092A425C2B32208100E33C78 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A425B2B32208100E33C78 /* Constant.swift */; };
 		092A425E2B32221600E33C78 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A425D2B32221600E33C78 /* HomeTableViewController.swift */; };
 		092A42602B32225500E33C78 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092A425F2B32225500E33C78 /* Home.storyboard */; };
@@ -19,6 +23,8 @@
 		092A42722B323D2900E33C78 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A42712B323D2900E33C78 /* PersistenceService.swift */; };
 		092A42752B3242C400E33C78 /* UserDefaultEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A42742B3242C400E33C78 /* UserDefaultEnum.swift */; };
 		092A42782B32497000E33C78 /* SavedBooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A42772B32497000E33C78 /* SavedBooksTableViewController.swift */; };
+		092A427A2B32BA1400E33C78 /* SearchBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A42792B32BA1400E33C78 /* SearchBookTableViewCell.swift */; };
+		092A427C2B32BA9800E33C78 /* OptionPaginateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A427B2B32BA9800E33C78 /* OptionPaginateEnum.swift */; };
 		096E6DBF2B30FE28004D42AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E6DBE2B30FE28004D42AB /* AppDelegate.swift */; };
 		096E6DC12B30FE28004D42AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E6DC02B30FE28004D42AB /* SceneDelegate.swift */; };
 		096E6DC32B30FE28004D42AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E6DC22B30FE28004D42AB /* ViewController.swift */; };
@@ -54,6 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091FFF2B2B337DF8000EB19B /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		091FFF2D2B33A089000EB19B /* FullBookInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBookInfo.swift; sourceTree = "<group>"; };
+		091FFF302B33B1B0000EB19B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		091FFF342B33D510000EB19B /* Acordion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acordion.swift; sourceTree = "<group>"; };
 		092A425B2B32208100E33C78 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		092A425D2B32221600E33C78 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		092A425F2B32225500E33C78 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -66,6 +76,8 @@
 		092A42712B323D2900E33C78 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		092A42742B3242C400E33C78 /* UserDefaultEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultEnum.swift; sourceTree = "<group>"; };
 		092A42772B32497000E33C78 /* SavedBooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedBooksTableViewController.swift; sourceTree = "<group>"; };
+		092A42792B32BA1400E33C78 /* SearchBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookTableViewCell.swift; sourceTree = "<group>"; };
+		092A427B2B32BA9800E33C78 /* OptionPaginateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionPaginateEnum.swift; sourceTree = "<group>"; };
 		096E6DBB2B30FE28004D42AB /* Bookiverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookiverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096E6DBE2B30FE28004D42AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		096E6DC02B30FE28004D42AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +124,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091FFF2F2B33B19F000EB19B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				091FFF302B33B1B0000EB19B /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		092A42562B321FF000E33C78 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				092A42612B32282700E33C78 /* Book.swift */,
+				091FFF2D2B33A089000EB19B /* FullBookInfo.swift */,
+				091FFF342B33D510000EB19B /* Acordion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,10 +173,12 @@
 		092A425A2B32204A00E33C78 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				091FFF2F2B33B19F000EB19B /* Extensions */,
 				092A42732B3242B600E33C78 /* Enum */,
 				092A425B2B32208100E33C78 /* Constant.swift */,
 				092A42682B322EAA00E33C78 /* CommonUtils.swift */,
 				092A42712B323D2900E33C78 /* PersistenceService.swift */,
+				091FFF2B2B337DF8000EB19B /* Loader.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -174,6 +198,7 @@
 				092A425D2B32221600E33C78 /* HomeTableViewController.swift */,
 				092A426B2B3235F400E33C78 /* BookTableViewCell.swift */,
 				092A426F2B323CAC00E33C78 /* BookDetailViewController.swift */,
+				092A42792B32BA1400E33C78 /* SearchBookTableViewCell.swift */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -182,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				092A42742B3242C400E33C78 /* UserDefaultEnum.swift */,
+				092A427B2B32BA9800E33C78 /* OptionPaginateEnum.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -407,11 +433,17 @@
 				096E6DC92B30FE28004D42AB /* Bookiverse.xcdatamodeld in Sources */,
 				092A426C2B3235F400E33C78 /* BookTableViewCell.swift in Sources */,
 				092A42722B323D2900E33C78 /* PersistenceService.swift in Sources */,
+				091FFF2C2B337DF8000EB19B /* Loader.swift in Sources */,
 				096E6DC32B30FE28004D42AB /* ViewController.swift in Sources */,
 				092A425C2B32208100E33C78 /* Constant.swift in Sources */,
+				091FFF352B33D510000EB19B /* Acordion.swift in Sources */,
 				092A42672B322A3900E33C78 /* BookRequest.swift in Sources */,
+				091FFF312B33B1B0000EB19B /* StringExtension.swift in Sources */,
 				092A42692B322EAA00E33C78 /* CommonUtils.swift in Sources */,
+				092A427C2B32BA9800E33C78 /* OptionPaginateEnum.swift in Sources */,
+				092A427A2B32BA1400E33C78 /* SearchBookTableViewCell.swift in Sources */,
 				096E6DBF2B30FE28004D42AB /* AppDelegate.swift in Sources */,
+				091FFF2E2B33A089000EB19B /* FullBookInfo.swift in Sources */,
 				096E6DC12B30FE28004D42AB /* SceneDelegate.swift in Sources */,
 				092A425E2B32221600E33C78 /* HomeTableViewController.swift in Sources */,
 			);

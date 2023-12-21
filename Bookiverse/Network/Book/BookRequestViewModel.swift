@@ -14,6 +14,9 @@ class BookRequestViewModel {
     var books: [BookModel]? {
         didSet { self.didFinishFetch?() }
     }
+    var book: FullBookInfo? {
+        didSet { self.didFinishFetch?() }
+    }
     
     private var bookRequest: BookRequest?
     
@@ -26,7 +29,6 @@ class BookRequestViewModel {
     }
     
     var showAlertClosure: (() -> ())?
-    var updateLoadingStatus: (() -> ())?
     var didFinishFetch: (() -> ())?
     
     // MARK: - Constructor
@@ -35,12 +37,23 @@ class BookRequestViewModel {
     }
     
     // MARK: Methods
-    func requestBooks(search: String){
-        self.bookRequest?.loadBooks(search: search) { books, errorMessage in
+    func requestBooks(search: String, offset: Int = 0, limit: Int = 10){
+        self.bookRequest?.loadBooks(search: search, offset: offset, limit: limit) { books, errorMessage in
             if errorMessage != "" {
                 self.errorMessage = errorMessage
                 return
             }
             self.books = books
-        }}
+        }
+    }
+    
+    func getBookDetail(id: String){
+        self.bookRequest?.loadDetailBook(id: id){ book, errorMessage in
+            if errorMessage != "" {
+                self.errorMessage = errorMessage
+                return
+            }
+            self.book = book
+        }
+    }
 }
