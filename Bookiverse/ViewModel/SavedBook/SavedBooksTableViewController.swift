@@ -46,15 +46,24 @@ class SavedBooksTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        if savedBooks.count == 0 {
+            return 1
+        }
         return savedBooks.count
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if savedBooks.isEmpty {
+            return 200
+        }
         return 70
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if savedBooks.isEmpty {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "emptyBookSaved", for: indexPath)
+            return cell
+        }
         let cell = tableView.dequeueReusableCell(withIdentifier: "BookVC", for: indexPath) as! BookTableViewCell
         let bookSelected = savedBooks[indexPath.row]
         let bookInf = BookInfo(title: bookSelected.title ?? "", subtitle: nil, authors: [bookSelected.author ?? ""],publisher: bookSelected.publisher ?? "", publishedDate: bookSelected.publishDate ?? "")

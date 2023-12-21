@@ -40,6 +40,10 @@
 		096E6DF92B314D0C004D42AB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 096E6DF82B314D0C004D42AB /* FirebaseAuth */; };
 		096E6DFB2B314D0C004D42AB /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 096E6DFA2B314D0C004D42AB /* FirebaseCrashlytics */; };
 		096E6DFE2B314D99004D42AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 096E6DFD2B314D98004D42AB /* GoogleService-Info.plist */; };
+		09EE41DA2B34A6AB00D6FF2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EE41D92B34A6AB00D6FF2B /* LoginViewController.swift */; };
+		09EE41DD2B34A71500D6FF2B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 09EE41DC2B34A71500D6FF2B /* GoogleSignIn */; };
+		09EE41DF2B34A71500D6FF2B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 09EE41DE2B34A71500D6FF2B /* GoogleSignInSwift */; };
+		09EE41E22B34A87C00D6FF2B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EE41E12B34A87C00D6FF2B /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,8 @@
 		096E6DE22B30FE29004D42AB /* BookiverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookiverseUITests.swift; sourceTree = "<group>"; };
 		096E6DE42B30FE29004D42AB /* BookiverseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookiverseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		096E6DFD2B314D98004D42AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09EE41D92B34A6AB00D6FF2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		09EE41E12B34A87C00D6FF2B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EE41DD2B34A71500D6FF2B /* GoogleSignIn in Frameworks */,
 				096E6DF72B314D0C004D42AB /* FirebaseAnalyticsSwift in Frameworks */,
 				096E6DFB2B314D0C004D42AB /* FirebaseCrashlytics in Frameworks */,
+				09EE41DF2B34A71500D6FF2B /* GoogleSignInSwift in Frameworks */,
 				096E6DF92B314D0C004D42AB /* FirebaseAuth in Frameworks */,
 				096E6DF52B314D0C004D42AB /* FirebaseAnalytics in Frameworks */,
 			);
@@ -145,6 +153,8 @@
 		092A42572B321FF600E33C78 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				09EE41E02B34A86D00D6FF2B /* Register */,
+				09EE41D82B34A6A100D6FF2B /* Login */,
 				092A42762B32495C00E33C78 /* SavedBook */,
 				092A426A2B3235D300E33C78 /* Book */,
 				096E6DC22B30FE28004D42AB /* ViewController.swift */,
@@ -283,6 +293,22 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		09EE41D82B34A6A100D6FF2B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				09EE41D92B34A6AB00D6FF2B /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		09EE41E02B34A86D00D6FF2B /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				09EE41E12B34A87C00D6FF2B /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,6 +319,7 @@
 				096E6DB72B30FE28004D42AB /* Sources */,
 				096E6DB82B30FE28004D42AB /* Frameworks */,
 				096E6DB92B30FE28004D42AB /* Resources */,
+				09EE41E32B34AB7900D6FF2B /* Crash */,
 			);
 			buildRules = (
 			);
@@ -304,6 +331,8 @@
 				096E6DF62B314D0C004D42AB /* FirebaseAnalyticsSwift */,
 				096E6DF82B314D0C004D42AB /* FirebaseAuth */,
 				096E6DFA2B314D0C004D42AB /* FirebaseCrashlytics */,
+				09EE41DC2B34A71500D6FF2B /* GoogleSignIn */,
+				09EE41DE2B34A71500D6FF2B /* GoogleSignInSwift */,
 			);
 			productName = Bookiverse;
 			productReference = 096E6DBB2B30FE28004D42AB /* Bookiverse.app */;
@@ -379,6 +408,7 @@
 			mainGroup = 096E6DB22B30FE27004D42AB;
 			packageReferences = (
 				096E6DF32B314D0C004D42AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				09EE41DB2B34A71500D6FF2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 096E6DBC2B30FE28004D42AB /* Products */;
 			projectDirPath = "";
@@ -420,6 +450,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09EE41E32B34AB7900D6FF2B /* Crash */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = Crash;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		096E6DB72B30FE28004D42AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -435,9 +491,11 @@
 				092A42722B323D2900E33C78 /* PersistenceService.swift in Sources */,
 				091FFF2C2B337DF8000EB19B /* Loader.swift in Sources */,
 				096E6DC32B30FE28004D42AB /* ViewController.swift in Sources */,
+				09EE41DA2B34A6AB00D6FF2B /* LoginViewController.swift in Sources */,
 				092A425C2B32208100E33C78 /* Constant.swift in Sources */,
 				091FFF352B33D510000EB19B /* Acordion.swift in Sources */,
 				092A42672B322A3900E33C78 /* BookRequest.swift in Sources */,
+				09EE41E22B34A87C00D6FF2B /* RegisterViewController.swift in Sources */,
 				091FFF312B33B1B0000EB19B /* StringExtension.swift in Sources */,
 				092A42692B322EAA00E33C78 /* CommonUtils.swift in Sources */,
 				092A427C2B32BA9800E33C78 /* OptionPaginateEnum.swift in Sources */,
@@ -627,19 +685,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = AZD7B5TZYA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bookiverse/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Para mayor seguridad y comodidad, habilita el uso de Face ID o datos biométricos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = prueba.tecnica.Bookiverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -658,16 +719,18 @@
 				DEVELOPMENT_TEAM = AZD7B5TZYA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bookiverse/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Para mayor seguridad y comodidad, habilita el uso de Face ID o datos biométricos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = prueba.tecnica.Bookiverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -802,6 +865,14 @@
 				version = 10.19.1;
 			};
 		};
+		09EE41DB2B34A71500D6FF2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -824,6 +895,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 096E6DF32B314D0C004D42AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
+		};
+		09EE41DC2B34A71500D6FF2B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09EE41DB2B34A71500D6FF2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		09EE41DE2B34A71500D6FF2B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09EE41DB2B34A71500D6FF2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 
