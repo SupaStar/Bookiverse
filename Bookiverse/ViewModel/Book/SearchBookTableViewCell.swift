@@ -21,7 +21,7 @@ class SearchBookTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+
         self.searchTxt.delegate = self
         loadFilterOptions()
     }

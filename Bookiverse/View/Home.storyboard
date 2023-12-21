@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -90,6 +91,26 @@
                                     <outlet property="publisher" destination="CDz-EA-Ms7" id="z6m-sG-OEq"/>
                                     <outlet property="title" destination="3z0-WT-S80" id="d6U-Ga-rQE"/>
                                 </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="emptyBookSaved" rowHeight="200" id="fxo-nS-sBX">
+                                <rect key="frame" x="0.0" y="163.66666793823242" width="393" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fxo-nS-sBX" id="bdc-9t-OUa">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aun no guardas ningun libro :(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFs-6w-F7B">
+                                            <rect key="frame" x="82.666666666666686" y="89.666666666666671" width="228" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="JFs-6w-F7B" firstAttribute="centerX" secondItem="bdc-9t-OUa" secondAttribute="centerX" id="61k-lc-SSR"/>
+                                        <constraint firstItem="JFs-6w-F7B" firstAttribute="centerY" secondItem="bdc-9t-OUa" secondAttribute="centerY" id="QLY-eh-bqT"/>
+                                    </constraints>
+                                </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -196,7 +217,9 @@
                                                     <command title="Item 2" id="yjX-0x-yb7"/>
                                                 </children>
                                             </menu>
-                                            <state key="normal" title="Button"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" name="TextLinkColor"/>
+                                            </state>
                                         </button>
                                         <searchBar contentMode="redraw" placeholder="Type to search" translatesAutoresizingMaskIntoConstraints="NO" id="i3f-Ct-bcx">
                                             <rect key="frame" x="8" y="-5" width="312" height="70"/>
@@ -218,6 +241,38 @@
                                     <outlet property="searchTxt" destination="i3f-Ct-bcx" id="HUe-2L-Ito"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="emptyBooks" rowHeight="200" id="1q8-0Z-ybJ">
+                                <rect key="frame" x="0.0" y="180" width="393" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1q8-0Z-ybJ" id="yct-uh-txm">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicia la busqueda de libros con la barra de arriba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-K7-dP9">
+                                            <rect key="frame" x="10.666666666666657" y="32" width="372" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Espero puedas encontrar todos los libros que buscas :)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gN-sN-Dz2">
+                                            <rect key="frame" x="71.666666666666686" y="90" width="250" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="250" id="2sD-h5-2gh"/>
+                                                <constraint firstAttribute="height" constant="50" id="kx5-OS-MhB"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="9gN-sN-Dz2" firstAttribute="top" secondItem="GjX-K7-dP9" secondAttribute="bottom" constant="37" id="5S5-x4-woO"/>
+                                        <constraint firstItem="GjX-K7-dP9" firstAttribute="centerX" secondItem="yct-uh-txm" secondAttribute="centerX" id="J3G-TU-u9J"/>
+                                        <constraint firstItem="GjX-K7-dP9" firstAttribute="top" secondItem="yct-uh-txm" secondAttribute="top" constant="32" id="KXv-u5-CI7"/>
+                                        <constraint firstItem="9gN-sN-Dz2" firstAttribute="centerX" secondItem="yct-uh-txm" secondAttribute="centerX" id="Quk-pJ-zgQ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="p9m-cP-wWM" id="RIm-vu-81E"/>
@@ -227,11 +282,22 @@
                     <navigationItem key="navigationItem" id="bbW-oO-vOB"/>
                     <connections>
                         <segue destination="zEV-g0-93x" kind="show" identifier="bookDetail" id="qIb-jW-Y2E"/>
+                        <segue destination="aWd-nF-1p4" kind="show" identifier="goLogin" id="A8M-bg-VGF"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDo-dS-ycr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2049.6183206106871" y="-151.40845070422537"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="fNS-9J-YSq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="aWd-nF-1p4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gid-m7-fTb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daG-GD-hyy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2592" y="-432"/>
         </scene>
         <!--Book Detail View Controller-->
         <scene sceneID="xcw-2c-aj9">
@@ -411,7 +477,9 @@
         <scene sceneID="qo6-bL-e8T">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZCk-Ca-qGB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Inicio" image="house" catalog="system" selectedImage="house.fill" id="oEw-hZ-bHY"/>
+                    <tabBarItem key="tabBarItem" title="Inicio" image="house" catalog="system" selectedImage="house.fill" id="oEw-hZ-bHY">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3VX-gg-A7p">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -449,7 +517,9 @@
         <scene sceneID="RZy-SW-76L">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="brh-gl-Yuj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Favoritos" image="star" catalog="system" selectedImage="star.fill" id="YsY-fn-pDY"/>
+                    <tabBarItem key="tabBarItem" title="Favoritos" image="star" catalog="system" selectedImage="star.fill" id="YsY-fn-pDY">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zuq-vy-fz2">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -466,13 +536,19 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eM8-7L-0nx"/>
+        <segue reference="qIb-jW-Y2E"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextLinkColor">
+            <color red="0.1803921568627451" green="0.49019607843137253" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -8,6 +8,7 @@
 
 
 import UIKit
+import FirebaseAuth
 
 class HomeTableViewController: UITableViewController {
     // MARK: Variables
@@ -27,12 +28,32 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Book search"
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+        UserDefaults.standard.set(true, forKey: UserDefaultEnum.logedBefore.rawValue)
+        
+        let signOut = UIBarButtonItem(image: UIImage(systemName: "rectangle.portrait.and.arrow.right.fill"), style: .plain, target: self, action: #selector(closeSession))
+        
+        self.navigationItem.rightBarButtonItem = signOut
+        
         setupUser()
+    }
+    
+    @objc func closeSession(){
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+            performSegue(withIdentifier: "goLogin", sender: self)
+        } catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
+        }
     }
     
     func setupUser() {
         // MARK: Quitar a futuro, valor id hardcode
-        UserDefaults.standard.set("0000", forKey: UserDefaultEnum.idUser.rawValue)
+//        UserDefaults.standard.set("0000", forKey: UserDefaultEnum.idUser.rawValue)
         
         if let id = UserDefaults.standard.string(forKey: UserDefaultEnum.idUser.rawValue) {
             if persistanceS.getUser(id: id) == nil {
@@ -43,14 +64,13 @@ class HomeTableViewController: UITableViewController {
     }
     
     func loadBooks(refresh: Bool = false){
-//        guard let search = search else {
-//            self.books = []
-//            tableView.reloadData()
-//            return
-//        }
+        guard let search = search else {
+            self.books = []
+            tableView.reloadData()
+            return
+        }
         //        loader.show(in: self)
-//        booksVM.requestBooks(search: search, offset: offset, limit: limit)
-        booksVM.requestBooks(search: "a", offset: offset, limit: limit)
+        booksVM.requestBooks(search: search, offset: offset, limit: limit)
         booksVM.didFinishFetch = { [weak self] in
             if refresh {
                 self?.books = self?.booksVM.books ?? []
@@ -75,7 +95,7 @@ class HomeTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if books.isEmpty {
-            return 1
+            return 2
         }
         return books.count + 1
     }
@@ -83,6 +103,11 @@ class HomeTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.row == 0 {
             return 60
+        }
+        if books.isEmpty {
+            if indexPath.row == 1 {
+                return 200
+            }
         }
         return 70
     }
@@ -93,6 +118,12 @@ class HomeTableViewController: UITableViewController {
             cell.originVC = self
             self.searchBar = cell
             return cell
+        }
+        if books.isEmpty {
+            if indexPath.row == 1 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "emptyBooks", for: indexPath)
+                return cell
+            }
         }
         let cell = tableView.dequeueReusableCell(withIdentifier: "BookVC", for: indexPath) as! BookTableViewCell
         cell.book = books[indexPath.row - 1]
