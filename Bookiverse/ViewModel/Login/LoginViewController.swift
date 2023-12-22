@@ -41,6 +41,7 @@ class LoginViewController: UIViewController {
     
     func setupInputs() {
         configureView(emailView)
+        passwordTxt.accessibilityIdentifier = "passwordTxt"
         configureView(passwordView)
         configureTextField(emailTxt)
         configureTextField(passwordTxt)

@@ -221,9 +221,12 @@
                                                 <color key="titleColor" name="TextLinkColor"/>
                                             </state>
                                         </button>
-                                        <searchBar contentMode="redraw" placeholder="Type to search" translatesAutoresizingMaskIntoConstraints="NO" id="i3f-Ct-bcx">
+                                        <searchBar contentMode="redraw" placeholder="Escribe para buscar" translatesAutoresizingMaskIntoConstraints="NO" id="i3f-Ct-bcx">
                                             <rect key="frame" x="8" y="-5" width="312" height="70"/>
                                             <textInputTraits key="textInputTraits"/>
+                                            <attributedString key="userComments">
+                                                <fragment content="bookSearch"/>
+                                            </attributedString>
                                         </searchBar>
                                     </subviews>
                                     <constraints>
@@ -544,7 +547,7 @@
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <namedColor name="AccentColor">
-            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.25882352941176473" green="0.52156862745098043" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TextLinkColor">
             <color red="0.1803921568627451" green="0.49019607843137253" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

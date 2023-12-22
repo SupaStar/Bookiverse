@@ -28,13 +28,14 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Book search"
+        title = "Busqueda de libros"
         
         navigationController?.navigationBar.prefersLargeTitles = true
         
         UserDefaults.standard.set(true, forKey: UserDefaultEnum.logedBefore.rawValue)
         
         let signOut = UIBarButtonItem(image: UIImage(systemName: "rectangle.portrait.and.arrow.right.fill"), style: .plain, target: self, action: #selector(closeSession))
+        signOut.accessibilityIdentifier = "closeSessionBtn"
         
         self.navigationItem.rightBarButtonItem = signOut
         

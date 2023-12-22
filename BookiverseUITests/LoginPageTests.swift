@@ -31,10 +31,10 @@ final class LoginPageTests: XCTestCase {
         emailTextField.typeText("example@email.com")
         
         
-//        let passwordTextField = app.textFields["passwordTxt"]
-//        XCTAssertTrue(passwordTextField.exists)
-//        passwordTextField.tap()
-//        passwordTextField.typeText("password123")
+//                let passwordTextField = app.textFields["passwordTxt"]
+//                XCTAssertTrue(passwordTextField.exists)
+//                passwordTextField.tap()
+//                passwordTextField.typeText("password123")
         
         let loginButton = app.buttons["loginBtn"]
         XCTAssertTrue(loginButton.exists)
@@ -48,6 +48,8 @@ final class LoginPageTests: XCTestCase {
         
         registerButton.tap()
         
+        let registerPageLabel = app.staticTexts["Crear cuenta"]
+        XCTAssertTrue(registerPageLabel.waitForExistence(timeout: 5))
     }
     
     func testAnonymousLoginButton() {
@@ -55,7 +57,35 @@ final class LoginPageTests: XCTestCase {
         XCTAssertTrue(anonymousLoginButton.exists)
         
         anonymousLoginButton.tap()
+        
+        let homePageLabel = app.staticTexts["Busqueda de libros"]
+        XCTAssertTrue(homePageLabel.waitForExistence(timeout: 5))
     }
+    
+    func testFaceIdButton() {
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(true, forKey: "logedBefore")
+        userDefaults.synchronize()
+        
+        let faceIdBtn = app.buttons["faceIdBtn"]
+        
+        if faceIdBtn.exists {
+            faceIdBtn.tap()
+            
+            let homePageLabel = app.staticTexts["Busqueda de libros"]
+            let labelExists = homePageLabel.waitForExistence(timeout: 15)
+            
+            if labelExists {
+                XCTAssert(true, "Se cargó la página de inicio correctamente")
+                return
+            } else {
+                XCTFail("No se encontró el texto 'Busqueda de libros' después de presionar Face ID")
+            }
+        } else {
+            XCTFail("No se encontró el botón Face ID")
+        }
+    }
+    
     
     func testGoogleLoginButton() {
         let googleLoginButton = app.buttons["googleBtn"]
