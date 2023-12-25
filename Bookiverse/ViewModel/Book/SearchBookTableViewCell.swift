@@ -23,6 +23,7 @@ class SearchBookTableViewCell: UITableViewCell {
         super.awakeFromNib()
 
         self.searchTxt.delegate = self
+        searchTxt.accessibilityIdentifier = "searchBookTxt"
         loadFilterOptions()
     }
 
